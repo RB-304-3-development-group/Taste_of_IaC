@@ -1,0 +1,114 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #f1f1f1;
+}
+
+.banner {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+}
+
+.profile-photo {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  z-index: 1;
+  object-fit: cover;
+  opacity: 0.8;
+}
+
+.title {
+  position: absolute;
+  z-index: 2;
+  text-align: center;
+}
+
+
+h1 {
+  font-size: 2.5em;
+  color: #333;
+
+}
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+.introduction {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2em 0;
+}
+
+.title h1 {
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 10px;
+  border-radius: 5px;
+}
+/* 小型裝置（手機，小於 600px） */
+
+@media only screen and (max-width: 600px) {
+  .banner {
+    height: 200px;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+
+  h2 {
+    font-size: 1.2em;
+  }
+
+  .introduction {
+    padding: 1em 0;
+  }
+}
+
+/* 中型裝置（平板，介於 600px 和 900px 之間） */
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+  .banner {
+    height: 250px;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+
+  .introduction {
+    padding: 1.5em 0;
+  }
+}
+/* 大型裝置（電腦，大於 900px） */
+@media only screen and (min-width: 901px) {
+  .banner {
+    height: 350px;
+  }
+
+  h1 {
+    font-size: 3em;
+  }
+
+  h2 {
+    font-size: 2.2em;
+  }
+
+  .introduction {
+    padding: 2.5em 0;
+  }
+}
