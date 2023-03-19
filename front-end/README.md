@@ -1,27 +1,42 @@
-# FrontEnd
+# Personal Web Page with Angular, Running on AWS, Utilizing Terraform as IaC Tool
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.4.
 
-## Development server
+## Installation
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Before getting started, please make sure that you have installed the following tools:
 
-## Code scaffolding
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/)
+- [Angular CLI](https://angular.io/cli)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Windows (WSL2 is recommended)
 
-## Build
+Please follow the instructions [here]( link here ) to install Node.js, npm, and Angular CLI on Windows.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Linux
 
-## Running unit tests
+Please follow the instructions [here]( link here ) to install Node.js, npm, and Angular CLI on Linux.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### macOS
 
-## Running end-to-end tests
+Please follow the instructions [here]( link here ) to install Node.js, npm, and Angular CLI on macOS.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Usage
 
-## Further help
+### Installation of Dependencies
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Before launching the web page, please install the required dependencies with the following command:
+
+```shell
+npm install
+```
+## Local Launch
+To launch the web page locally, please run the following command:
+```shell
+ng serve
+```
+Then, you can access the website at http://localhost:4200/.
+
+
+### To launch on docker: 
